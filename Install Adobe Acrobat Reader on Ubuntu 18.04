@@ -1,0 +1,18 @@
+How to Install Adobe Acrobat Reader on Ubuntu 18.04
+
+Operating System: - Ubuntu 18.04 Bionic Beaver
+Software: - Adobe Reader 9.5.5
+
+Requirements
+Privileged access to your Ubuntu System as root or via sudo command is required.
+
+$ sudo apt install gdebi-core libxml2:i386 libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libatk-adaptor:i386
+
+Download:
+$ wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+
+Finally, to install Adobe Acrobat Reader on Ubuntu 18.04 Bionic Beaver Linux execute the following code. Press y when prompted:
+$ sudo gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+
+You can now start Adobe Acrobat Reader from your terminal using command:
+$ acroread
